@@ -1,0 +1,102 @@
+body {
+    background-color: rgb(0, 105, 64);
+    border: 5px solid white;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.button-container {
+    border: 2px solid #eff;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(145, 0, 40);
+    width: 200px;
+}
+
+.tittle-h1 {
+    color: #eff;
+    margin: 0;
+    font-size: 26px;
+    width: 100%;
+}
+
+.visual {
+    display: flex;
+    margin-top: 4px;
+}
+
+.screen-calculation {
+    width: 100%;
+    border-radius: 6px;
+    padding-left: 12px;
+    padding-right: 12px;
+    height: 28px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 0;
+}
+
+.screen-calculation:disabled {
+    background-color: #eff;
+    color: black;
+}
+
+.line-button0 {
+    margin-top: 5px;
+}
+
+
+.line-button1,
+.line-button2,
+.line-button3,
+.line-button4,
+.line-button0 {
+    display: flex;
+    margin-top: 4px;
+}
+
+.select-button,
+.back,
+.clearinput,
+.calcular {
+    background-color: #eff;
+    width: 100%;
+    height: 40px;
+    margin-top: 4px;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.margin-edit {
+    margin-right: 6px;
+}
+
+.calcular:hover,
+.clearinput:hover,
+.select-button:hover,
+.back:hover {
+    background-color: #c7c7c7;
+}
+
+.second-color {
+    background-color: rgb(0, 105, 64);
+    color: white;
+    border: 1px solid white;
+}
+
+#zero {
+    width: 76.2%;
+}
+.igual {
+    width: 23.8%;
+}

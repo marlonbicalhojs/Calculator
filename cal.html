@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULADORA</title>
+    <link rel="stylesheet" href="cal.css">
+    <script src="cal.js"></script>
+</head>
+
+<body class="container">
+    <div class="sub-container">
+
+        <div class="button-container">
+
+            <div class="tittle-one">
+                <p class="tittle-h1">CALCULADORA</p>
+            </div>
+
+            <div class="visual">
+                <input class="screen-calculation" type="text" disabled=true oninput="insert()">
+            </div>
+
+            <div class="line-button0">
+                <button class="second-color clearinput margin-edit" onclick="clearinput()">C</button>
+                <button class="second-color back margin-edit" onclick="back()">←</button>
+                <button class="second-color select-button margin-edit" id="ponto" onclick="insert('.')">.</button>
+                <button class="second-color select-button" onclick="insert('*')">x</button>
+
+            </div>
+            <div class="line-button1">
+                <button class="select-button margin-edit" onclick="insert('7')">7</button>
+                <button class="select-button margin-edit" onclick="insert('8')">8</button>
+                <button class="select-button margin-edit" onclick="insert('9')">9</button>
+                <button class="select-button second-color" onclick="insert('/')">÷</button>
+                <br>
+            </div>
+            <div class="line-button2">
+                <button class="select-button margin-edit" onclick="insert('4')">4</button>
+                <button class="select-button margin-edit" onclick="insert('5')">5</button>
+                <button class="select-button margin-edit" onclick="insert('6')">6</button>
+                <button class="select-button second-color" id="menos" onclick="insert('-')">-</button>
+                <br>
+            </div>
+            <div class="line-button3">
+                <button class="select-button margin-edit" onclick="insert('1')">1</button>
+                <button class="select-button margin-edit" onclick="insert('2')">2</button>
+                <button class="select-button margin-edit" onclick="insert('3')">3</button>
+                <button class="select-button second-color" onclick="insert('+')">+</button>
+                <br>
+            </div>
+
+            <div class="line-button4">
+                <button class="select-button margin-edit" id="zero" onclick="insert('0')">0</button>
+                <input class="calcular second-color igual" type="button" value="=" onclick="calcular()">
+                <br>
+            </div>
+
+        </div>
+    </div>
+    <script></script>
+</body>
+
+</html>
